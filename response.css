@@ -1,17 +1,160 @@
-@media only screen and (max-width : 900px) {
-    body{
-        width: 100vh;
+/* Responsive styles for mobile */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
     }
-    .left{
-        width: 30vw;
+
+    .left {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
     }
-    .mid{
-        width:50vw;
+
+    .left img {
+        width: 80px;
+        top: 0;
+        margin-bottom: 10px;
     }
-    .right{
-        width:40vw;
+
+    .left div {
+        font-size: 14px;
+        margin: 0;
     }
-    .container{
-        width:50vw;
+
+    .mid {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin: 8px;
+        font-size: 18px;
+    }
+
+    .right {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        margin: 20px 10px;
+        width: 90%;
+    }
+
+    .form-group input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .container button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .left img {
+        width: 60px;
+        margin-bottom: 5px;
+    }
+
+    .left div {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .navbar li {
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 10px;
+        width: 95%;
+    }
+
+    .form-group input {
+        font-size: 14px;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+}
+
+/* Responsive styles for screens with resolution 350 x 900 */
+@media only screen and (min-width: 350px) and (max-width: 900px) {
+    .left {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .left img {
+        width: 100px;
+        top: 0;
+        margin-bottom: 10px;
+    }
+
+    .left div {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .mid {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar li {
+        display: inline-block;
+        margin: 8px;
+        font-size: 16px;
+    }
+
+    .right {
+        position: static;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        margin: 20px 10px;
+        width: 90%;
+    }
+
+    .form-group input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .container h1 {
+        font-size: 22px;
+    }
+
+    .container button {
+        width: 100%;
     }
 }
