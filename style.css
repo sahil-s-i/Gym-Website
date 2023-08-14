@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: no-repeat url('bg1.jpg');
+    background-size: cover;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 66px;
+    top: 22px;
+}
+
+.left img {
+    width: 127px;
+    filter: invert(100%);
+    position: absolute;
+    top: -37px;
+}
+
+.left div {
+    font-size: 15px;
+    text-align: center;
+    margin: 62px 0px;
+}
+
+.mid {
+    display: block;
+    width: 39%;
+    margin: 61px 438px;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    margin: -13px -200px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 26px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #ecc2c2;
+
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 9px 16px;
+    background-color: black;
+    color: white;
+    padding: 3px 17px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    display: block;
+}
+
+#email {
+    padding: 3px 34px;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 46px 71px;
+    padding: 12px;
+    width: 38%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 430px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 9px auto;
+    font-size: 23px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.btn:hover {
+    background-color: rgb(187, 186, 186);
+    color: black;
+    border: 2px solid black;
+}
+
+.bx {
+    position: absolute;
+    top: 0.4em;
+    left: 0.2rem;
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width:300px) and (max-width: 600px) {
+    body {
+        height: 120vh;
+    }
+
+    .left img {
+        width: 101px;
+        top: -27px;
+        left: -23px;
+    }
+
+    .left div {
+        font-size: 13px;
+        margin: 53px -24px;
+    }
+
+    .right {
+        right: -4px;
+        top: 21px;
+    }
+
+    .btn {
+        padding: 3px 25px;
+        font-size: 11px;
+    }
+
+    .navbar {
+        margin: 0px 0px;
+    }
+
+    .navbar li a {
+        padding: 10px 42px;
+    }
+
+    .container {
+        width: 81%;
+        position: absolute;
+        top: 20%;
+        margin: 40px 16px;
+    }
+
+    .form-group input {
+        width: 78%;
+        padding: 0.1rem;
+        margin: 1rem auto;
+        font-size: 1.1em;
+    }
+
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .container button {
+        width: 67%;
+        margin: 23px auto;
+    }
+
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 17px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 26px;
+        margin-left: 50px;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+
+}
