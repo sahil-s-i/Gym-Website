@@ -1,7 +1,7 @@
 /* Set the width of the side navigation to 250px */
 function openNav() {
     console.log("open funciton")
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "270px";
 }
 
 /* Set the width of the side navigation to 0 */
